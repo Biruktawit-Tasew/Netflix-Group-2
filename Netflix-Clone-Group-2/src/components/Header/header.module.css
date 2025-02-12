@@ -1,0 +1,30 @@
+.outer_container {
+    height: 10vh;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: sticky;
+    top: 0;
+}
+
+.inner_container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+}
+.left_container ul {
+display: flex;
+list-style: none;
+gap: 3rem;
+align-items: center;
+}
+
+.right_container ul {
+display: flex;
+list-style: none;
+gap: 1rem;
+align-items: center;
+}
