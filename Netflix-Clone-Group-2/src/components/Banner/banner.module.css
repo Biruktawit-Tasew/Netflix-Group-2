@@ -1,0 +1,45 @@
+.banner {
+  height: 80vh;
+  object-fit: contain;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.inner_banner {
+  color: white;
+  padding-top: 35vh;
+  margin-left: 3rem;
+}
+.banner_desc {
+  width: 23rem;
+}
+.btn {
+  padding: 1rem 3rem;
+  font-size: 1.2rem;
+  margin: 1rem 2rem 1rem 0;
+  border-radius: 0.2vw;
+  border: none;
+  font-weight: 700;
+  color: #fff;
+  background-color: rgba(51, 51, 51, 0.5);
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #c6c6c6;
+  color: #111;
+}
+
+.play {
+  background-color: #fff;
+  color: #111;
+}
+.banner_fadeBottom {
+  height: 15rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgb(37, 37, 37, 0.91),
+    #111
+  );
+}
